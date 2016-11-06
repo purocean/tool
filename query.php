@@ -15,6 +15,7 @@ INPUT:
 $content
 
 ---------------------------------------------------------------
+
 LOG;
 
 file_put_contents('query.log', $log, FILE_APPEND);
